@@ -52,7 +52,6 @@ namespace WindowsFormsApp1
                     comboBox4.Enabled = true;
                     comboBox5.Enabled = true;
                     rev.Text = "";  //清空接收区
-                    send.Text = "";     //清空发送区
                 }
                 else 
                 {
@@ -80,6 +79,10 @@ namespace WindowsFormsApp1
                         case 2: serialPort1.StopBits = StopBits.Two; break;
                         default: break;
                     }
+                    serialPort1.ReadTimeout = 100;
+                    serialPort1.WriteTimeout = -1;
+                    serialPort1.ReceivedBytesThreshold = 1;
+                    serialPort1.DataReceived += new SerialDataReceivedEventHandler(SerialPort1_DataReceived);
                     serialPort1.Open();    //打开串口
                     button1.Text = "关闭串口";
                     button1.BackColor = Color.Firebrick;
@@ -104,11 +107,26 @@ namespace WindowsFormsApp1
                 comboBox3.Enabled = true;
                 comboBox4.Enabled = true;
                 comboBox5.Enabled = true;
-
             }
-
         }
 
 
+        //串口接收数据响应函数
+        private void SerialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e) 
+        {
+            SerialPort serial = (SerialPort)sender;
+
+            string s = serial.ReadExisting();
+            this.Invoke(new Action(() =>
+            {
+                rev.AppendText(s);
+            }));
+        }
+
+        private void rev_TextChanged(object sender, EventArgs e)
+        {
+            rev.SelectionStart = rev.Text.Length;
+            rev.ScrollToCaret();
+        }
     }
 }
