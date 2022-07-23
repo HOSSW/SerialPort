@@ -128,5 +128,65 @@ namespace WindowsFormsApp1
             rev.SelectionStart = rev.Text.Length;
             rev.ScrollToCaret();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键一" + "\r\n";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键二" + "\r\n";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键三" + "\r\n";
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键四" + "\r\n";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键五" + "\r\n";
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键六" + "\r\n";
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键七" + "\r\n";
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键八" + "\r\n";
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键九" + "\r\n";
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键十" + "\r\n";
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键十一" + "\r\n";
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            rev.Text = "这是按键十二" + "\r\n";
+        }
     }
 }

@@ -42,20 +42,20 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.rev = new System.Windows.Forms.RichTextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -227,6 +227,126 @@
             this.panel2.Size = new System.Drawing.Size(702, 235);
             this.panel2.TabIndex = 1;
             // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(566, 117);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 40);
+            this.button13.TabIndex = 11;
+            this.button13.Text = "按键12";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(468, 117);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 40);
+            this.button12.TabIndex = 10;
+            this.button12.Text = "按键11";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(363, 117);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 40);
+            this.button11.TabIndex = 9;
+            this.button11.Text = "按键10";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(256, 117);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 40);
+            this.button10.TabIndex = 8;
+            this.button10.Text = "按键9";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(145, 117);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 40);
+            this.button9.TabIndex = 7;
+            this.button9.Text = "按键8";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(33, 117);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 40);
+            this.button8.TabIndex = 6;
+            this.button8.Text = "按键7";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(566, 36);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 40);
+            this.button7.TabIndex = 5;
+            this.button7.Text = "按键6";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(468, 36);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 40);
+            this.button6.TabIndex = 4;
+            this.button6.Text = "按键5";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(363, 36);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 40);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "按键4";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(256, 36);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 40);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "按键3";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(145, 36);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 40);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "按键2";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(33, 36);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 40);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "按键1";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Info;
@@ -245,114 +365,6 @@
             this.rev.TabIndex = 0;
             this.rev.Text = "";
             this.rev.TextChanged += new System.EventHandler(this.rev_TextChanged);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(33, 36);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 40);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "按键1";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(145, 36);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 40);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "按键2";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(256, 36);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 40);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "按键3";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(363, 36);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 40);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "按键4";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(468, 36);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 40);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "按键5";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(566, 36);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 40);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "按键6";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(33, 117);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 40);
-            this.button8.TabIndex = 6;
-            this.button8.Text = "按键7";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(145, 117);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 40);
-            this.button9.TabIndex = 7;
-            this.button9.Text = "按键8";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(256, 117);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 40);
-            this.button10.TabIndex = 8;
-            this.button10.Text = "按键9";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(363, 117);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 40);
-            this.button11.TabIndex = 9;
-            this.button11.Text = "按键10";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(468, 117);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 40);
-            this.button12.TabIndex = 10;
-            this.button12.Text = "按键11";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(566, 117);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 40);
-            this.button13.TabIndex = 11;
-            this.button13.Text = "按键12";
-            this.button13.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
