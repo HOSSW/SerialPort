@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BodyMotherboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BodyMotherboard.Designer.cs">
+      <DependentUpon>BodyMotherboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DollSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DollSubject.Designer.cs">
+      <DependentUpon>DollSubject.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +66,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BodyMotherboard.resx">
+      <DependentUpon>BodyMotherboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DollSubject.resx">
+      <DependentUpon>DollSubject.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

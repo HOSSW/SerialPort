@@ -31,3 +31,16 @@ D:\YongLong_Ke\vs\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.
 D:\YongLong_Ke\vs\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 D:\YongLong_Ke\vs\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\YongLong_Ke\vs\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DollSubject.resources
+E:\VS\VSC#\SerialPort\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.BodyMotherboard.resources

@@ -15,11 +15,13 @@ namespace WindowsFormsApp1
     public partial class Form1 : Form
     {
         SerialPort serialPort1 = new SerialPort();
-
+        public static Form1 ex_form1;
         public Form1()
         {
             InitializeComponent();
-            
+            ex_form1 = this;
+
+
         }
 
 
@@ -32,6 +34,9 @@ namespace WindowsFormsApp1
             comboBox3.Text = "8";
             comboBox4.Text = "None";
             comboBox5.Text = "1";
+            button2.Enabled = false;
+            button3.Enabled = false;
+            button4.Enabled = false;
         }
        
 
@@ -52,6 +57,9 @@ namespace WindowsFormsApp1
                     comboBox4.Enabled = true;
                     comboBox5.Enabled = true;
                     rev.Text = "";  //清空接收区
+                    button2.Enabled = false;
+                    button3.Enabled = false;
+                    button4.Enabled = false;
                 }
                 else 
                 {
@@ -61,7 +69,6 @@ namespace WindowsFormsApp1
                     comboBox3.Enabled = false;
                     comboBox4.Enabled = false;
                     comboBox5.Enabled = false;
-
                     serialPort1.PortName = comboBox1.Text.ToString();
                     serialPort1.BaudRate = Convert.ToInt32(comboBox2.Text.ToString());
                     serialPort1.DataBits = Convert.ToInt32(comboBox3.Text.ToString());
@@ -86,6 +93,9 @@ namespace WindowsFormsApp1
                     serialPort1.Open();    //打开串口
                     button1.Text = "关闭串口";
                     button1.BackColor = Color.Firebrick;
+                    button2.Enabled = true;
+                    button3.Enabled = true;
+                    button4.Enabled = true;
                 }
             }
             catch (Exception ex)
@@ -107,6 +117,9 @@ namespace WindowsFormsApp1
                 comboBox3.Enabled = true;
                 comboBox4.Enabled = true;
                 comboBox5.Enabled = true;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
             }
         }
 
@@ -131,12 +144,38 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            rev.Text = "这是按键一" + "\r\n";
+            /* rev.Text = "这是按键一" + "\r\n";*/
+            DollSubject dollsubject = new DollSubject(); //实例化一个子窗口
+            //设置子窗口不显示为顶级窗口
+            dollsubject.TopLevel = false;
+            //设置子窗口的样式，没有上面的标题栏
+            dollsubject.FormBorderStyle = FormBorderStyle.None;
+            //填充
+            dollsubject.Dock = DockStyle.Fill;
+            //清空Panel里面的控件 
+            this.contentPanel.Controls.Clear();
+            //加入控件
+            this.contentPanel.Controls.Add(dollsubject);
+            //让窗体显示
+            dollsubject.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            rev.Text = "这是按键二" + "\r\n";
+            /* rev.Text = "这是按键二" + "\r\n";*/
+            BodyMotherboard bodymotherboard = new BodyMotherboard(); //实例化一个子窗口
+            //设置子窗口不显示为顶级窗口
+            bodymotherboard.TopLevel = false;
+            //设置子窗口的样式，没有上面的标题栏
+            bodymotherboard.FormBorderStyle = FormBorderStyle.None;
+            //填充
+            bodymotherboard.Dock = DockStyle.Fill;
+            //清空Panel里面的控件 
+            this.contentPanel.Controls.Clear();
+            //加入控件
+            this.contentPanel.Controls.Add(bodymotherboard);
+            //让窗体显示
+            bodymotherboard.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -144,49 +183,6 @@ namespace WindowsFormsApp1
             rev.Text = "这是按键三" + "\r\n";
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            rev.Text = "这是按键四" + "\r\n";
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            rev.Text = "这是按键五" + "\r\n";
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            rev.Text = "这是按键六" + "\r\n";
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            rev.Text = "这是按键七" + "\r\n";
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            rev.Text = "这是按键八" + "\r\n";
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            rev.Text = "这是按键九" + "\r\n";
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            rev.Text = "这是按键十" + "\r\n";
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            rev.Text = "这是按键十一" + "\r\n";
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            rev.Text = "这是按键十二" + "\r\n";
-        }
+       
     }
 }
